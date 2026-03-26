@@ -6,6 +6,7 @@ export default function TabLayout() {
   return (
     <Tabs
       screenOptions={{
+        headerShown:false,
         headerStyle: {
           backgroundColor: "#0e004d"
         },
@@ -23,12 +24,17 @@ export default function TabLayout() {
       />
 
       <Tabs.Screen
-        name="explore"
+        name="perfil"
         options={{
-          title: "Explorar"
+          title: "Perfil"
         }}
       />
-
+      <Tabs.Screen
+      name="historico"
+      options={{
+        title:"Historico"
+      }}
+/>
     </Tabs>
   );
 }

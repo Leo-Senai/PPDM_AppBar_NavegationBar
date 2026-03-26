@@ -1,5 +1,5 @@
 import { View, Text, StyleSheet } from 'react-native';
-import AppBar from "./AppBar";
+import AppBar from "../AppBar";
 
 export default function Home() {
   return (
